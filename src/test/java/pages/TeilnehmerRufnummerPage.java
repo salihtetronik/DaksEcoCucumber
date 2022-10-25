@@ -60,7 +60,7 @@ WebElement myElement;
 
 
     public void loschtRufnummernFelder(){
-        ReusableMethods.sleep(4000);
+        ReusableMethods.sleep(1000);
         ReusableMethods.getVisibilityOfWait(rufnummerFelder).clear();
     }
 
@@ -71,11 +71,6 @@ WebElement myElement;
     }
 
 
-    /*
-    public void eingebenRufnummernFelder(String text){
 
-        rufnummerFelder.sendKeys(text);
-    }
- */
 
 }

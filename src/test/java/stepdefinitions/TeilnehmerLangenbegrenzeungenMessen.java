@@ -12,6 +12,7 @@ public class TeilnehmerLangenbegrenzeungenMessen extends ReusableMethods {
     @Given("der benutzer klickt auf die schaltflache „Teilnehmer“")
     public void der_benutzer_klickt_auf_die_schaltflache_teilnehmer() {
         getVisibilityOfWait(teilnehmer.teilnehmerButton).click();
+        sleep(5000);
 
     }
 
