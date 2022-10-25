@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import pages.NameOrtListHinZuPage;
+import utilities.ReusableMethods;
 
 public class NameOrtListHinZu {
 
@@ -13,5 +14,6 @@ public class NameOrtListHinZu {
     // nameListPage.sendkeysMethod(nameListPage.nameOrt,text);
         nameListPage.nameOrt.sendKeys(name);
         nameListPage.mailAdresse.sendKeys(mail);
+        ReusableMethods.sleep(4000);
     }
 }

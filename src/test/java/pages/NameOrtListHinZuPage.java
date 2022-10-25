@@ -28,15 +28,5 @@ public class NameOrtListHinZuPage {
 
 
 
-/**
- * bu durumlarda yani bir satirlik kodlarda ayrica page icinde
- * ayri bir metoda gerek var mi???
- * Hocanin yaptigi framework uzerinde dusun,
- * hangi durumlarda oyle bir framework a ihtiyac duyulur
-    public void sendkeysMethod(WebElement element, String text){
 
-        nameOrt.sendKeys(text);
-    }
-
- */
 }

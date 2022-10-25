@@ -32,15 +32,7 @@ public class TeilnehmerAbspeichern {
         ReusableMethods.getVisibilityOfWait(teilnehmer.teilnehmerButton).click();
         ReusableMethods.sleep(5000);
     }
-/*
-    @Given("der benutzer kilckt auf den Neu Button")
-    public void der_benutzer_kilckt_auf_den_neu_button() {
-        teilnehmer.neuButton.click();
-    }
-Ayni metoddan 2 tane stepdefinition metodu varmis. dolaysiyla hata verdi. Test failed.
-onun icin bu metod silindi
 
- */
     @Given("der benutzer fugt einen neuen Teilnehmer hinzu")
     public void der_benutzer_fugt_einen_neuen_teilnehmer_hinzu() {
 

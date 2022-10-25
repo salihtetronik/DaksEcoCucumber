@@ -42,7 +42,7 @@ public class Login {
         String actual = ReusableMethods.getVisibilityOfWait(login.abmelden).getText();
         System.out.println(actual);
         String expected = "abmelden";
-        Assert.assertTrue(actual.equalsIgnoreCase("abmelden"));//hangisi dogru?
+        Assert.assertTrue(actual.equalsIgnoreCase("abmelden"));
        Assert.assertTrue(expected.equalsIgnoreCase(actual));
 
     }
